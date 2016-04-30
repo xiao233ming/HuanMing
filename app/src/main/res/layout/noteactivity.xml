@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="要点须知:"
+        android:textSize="24sp"
+        android:paddingTop="16dp"
+        />
+
+    <ImageView
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic9"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 广州气候炎热潮湿，易于上火，必要时可饮用当地的”凉茶”去火。"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+    <TextView
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 广州的水货不少，如果不是行家的话，那还是多多注意吧。"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

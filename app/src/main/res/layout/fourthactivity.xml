@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广州文化:"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic6"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="石室圣心大教堂，位于广州市区中心的一德路，是天主教广州教区最宏伟、最具有特色的一间大教堂。该教堂建于1863年，落成于1888年，历时25年始建成，至今有130多年的历史。教堂属“哥特”式建筑，可与闻名世界的法国巴黎圣母院相媲美。"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic7"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="沙面，历经百年，曾有十多个国家在沙面设立领事馆，九家外国银行、四十多家洋行在沙面经营，粤海关会所、广州俱乐部等在沙面相继成立。沙面见证了广州近代史的变迁，留下了孙中山先生、周恩来总理等伟人的足迹，沙面已成为我国近代史与租界史的缩影，沙面岛上欧陆风情建筑形成了独特的露天建筑“博物馆”。"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic8"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="西关大屋，俗称古老大屋，是荔湾区西关一带兴建的富有岭南特色的传统民居，多为名门望族、官僚巨贾所建。大部分西关大屋兴建于清朝同治、光绪年间，主要分布在多宝路、宝华路、龙津路西、上下九路等地。最著名的西关大屋有坐落于宝源北街18号的“梁资政第”、坐落于多宝路的邓宫保第以及坐落于宝华路正中的钟家花园等，但现已不复存在。"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

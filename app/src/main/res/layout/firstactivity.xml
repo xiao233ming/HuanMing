@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上面是广州的标志物，羊，又称羊城。"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="广州是广东省省会，是国务院定位的国际大都市、国际商贸中心[1]  、国际综合交通枢纽[2]  、国家中心城市、国家综合性门户城市、国家历史文化名城[3]  。广州从3世纪30年代起成为海上丝绸之路的主港，唐宋时期成为中国第一大港，明初、清初成为中国唯一的对外贸易大港，是世界上唯一两千多年长盛不衰的大港，是“历久不衰的海上丝绸之路发祥地。”"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic10"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="上面是广州最具魅力的风景。"/>
+</LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

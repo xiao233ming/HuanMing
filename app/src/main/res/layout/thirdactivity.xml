@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="广州美食简介"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="特色小吃: 肠粉"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="广州的一种特色小吃，是广州人爱吃的小食，也是广州大小茶楼、酒家早茶夜市的必备之品。因形似猪肠，广州人也称之为猪肠粉。据说，在抗日战争时期由泮塘荷仙馆创制，现小食店、茶楼、酒家、宾馆均有供应。"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic5" />
+
+            <TextView
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="早茶:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:text="早茶点心“饮茶粤海未能忘。”广州人喜爱饮茶，尤其爱饮早茶。早上见面，其他地方的问候语大多是“吃了吗”，广州人则往往是 “饮咗茶未啊？”（喝茶了吗？）。饮茶构成了岭南文化别于其他文化的一个显著特质。广州人喜欢喝茶，比如饮早茶，饮凉茶，饮功夫茶等。大家喜欢在节假日呼朋唤友，去茶座品茶。品茶尚在其次，主要是吃点心，聊天。广式点心品种多样，制作精美，各有风味。名点、名小食、名风味食品不胜枚举。"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
