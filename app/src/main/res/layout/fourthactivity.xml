@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/pic7"
-        android:scaleType="centerCrop"/>
+        android:scaleType="center"/>
 
     <TextView
         android:paddingTop="8dp"
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/pic8"
-        android:scaleType="centerCrop"/>
+        android:scaleType="center"/>
 
     <TextView
         android:paddingTop="8dp"
