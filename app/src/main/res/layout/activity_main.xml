@@ -80,7 +80,6 @@
                 android:src="@android:drawable/ic_dialog_email" />
 
 
-
         </LinearLayout>
 
     </ScrollView>
